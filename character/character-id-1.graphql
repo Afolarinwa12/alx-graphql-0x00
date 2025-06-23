@@ -1,0 +1,10 @@
+query GetCharacterById1 {
+  character(id: "1") {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
